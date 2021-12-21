@@ -1,5 +1,5 @@
 Name: coeurl
-Version: 0.1.0
+Version: 0.1.1
 Release: 1%{?dist}
 
 License: MIT
@@ -50,6 +50,9 @@ Requires: %{name}%{?_isa} = %{?epoch:%{epoch}:}%{version}-%{release}
 %{_libdir}/pkgconfig/%{name}.pc
 
 %changelog
+* Tue Dec 21 2021 Vitaly Zaitsev <vitaly@easycoding.org> - 0.1.1-1
+- Updated to version 0.1.1.
+
 * Fri Nov 19 2021 Vitaly Zaitsev <vitaly@easycoding.org> - 0.1.0-1
 - Updated to version 0.1.0.
 
