@@ -1,6 +1,6 @@
 Name: coeurl
 Version: 0.2.0
-Release: 1%{?dist}
+Release: 2%{?dist}
 
 License: MIT
 URL: https://nheko.im/nheko-reborn/%{name}
@@ -50,6 +50,9 @@ Requires: %{name}%{?_isa} = %{?epoch:%{epoch}:}%{version}-%{release}
 %{_libdir}/pkgconfig/%{name}.pc
 
 %changelog
+* Sat Apr 30 2022 Vitaly Zaitsev <vitaly@easycoding.org> - 0.2.0-2
+- Rebuilt due to spdlog update.
+
 * Thu Mar 10 2022 Vitaly Zaitsev <vitaly@easycoding.org> - 0.2.0-1
 - Updated to version 0.2.0.
 
