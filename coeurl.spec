@@ -1,6 +1,6 @@
 Name: coeurl
-Version: 0.2.0
-Release: 4%{?dist}
+Version: 0.2.1
+Release: 1%{?dist}
 
 License: MIT
 URL: https://nheko.im/nheko-reborn/%{name}
@@ -50,6 +50,9 @@ Requires: %{name}%{?_isa} = %{?epoch:%{epoch}:}%{version}-%{release}
 %{_libdir}/pkgconfig/%{name}.pc
 
 %changelog
+* Sat Jul 23 2022 Vitaly Zaitsev <vitaly@easycoding.org> - 0.2.1-1
+- Updated to version 0.2.1.
+
 * Wed Jul 20 2022 Fedora Release Engineering <releng@fedoraproject.org> - 0.2.0-4
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_37_Mass_Rebuild
 
