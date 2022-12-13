@@ -1,3 +1,0 @@
-# coeurl
-
-The coeurl package
