@@ -1,12 +1,13 @@
 Name: coeurl
 Version: 0.3.0
-Release: 2%{?dist}
+Release: 3%{?dist}
 
 License: MIT
 URL: https://nheko.im/nheko-reborn/%{name}
 Summary: Simple async wrapper around CURL for C++
 Source0: %{url}/-/archive/v%{version}/%{name}-v%{version}.tar.gz#/%{name}-%{version}.tar.gz
 
+BuildRequires: fmt-devel
 BuildRequires: gcc-c++
 BuildRequires: libcurl-devel
 BuildRequires: libevent-devel
@@ -50,6 +51,9 @@ Requires: %{name}%{?_isa} = %{?epoch:%{epoch}:}%{version}-%{release}
 %{_libdir}/pkgconfig/%{name}.pc
 
 %changelog
+* Wed Jun 28 2023 Vitaly Zaitsev <vitaly@easycoding.org> - 0.3.0-3
+- Rebuilt due to fmt 10 update.
+
 * Thu Jan 19 2023 Fedora Release Engineering <releng@fedoraproject.org> - 0.3.0-2
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_38_Mass_Rebuild
 
