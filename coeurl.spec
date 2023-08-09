@@ -1,6 +1,6 @@
 Name: coeurl
 Version: 0.3.0
-Release: 2%{?dist}
+Release: 2.rvrebuild%{?dist}
 
 License: MIT
 URL: https://nheko.im/nheko-reborn/%{name}
